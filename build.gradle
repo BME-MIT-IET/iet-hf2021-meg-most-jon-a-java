@@ -3,7 +3,7 @@ apply plugin: "java"
 apply plugin: "maven"
 
 task wrapper(type: Wrapper) {
-	gradleVersion = '2.0'
+	gradleVersion = '4.8.1'
 	distributionUrl = "http://services.gradle.org/distributions/gradle-${gradleVersion}-all.zip"
 }
 
