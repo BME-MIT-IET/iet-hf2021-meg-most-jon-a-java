@@ -26,4 +26,4 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Test with Gradle
-      run: ./gradlew -b ci.gradle package
+      run: ./gradlew test --tests "*"
