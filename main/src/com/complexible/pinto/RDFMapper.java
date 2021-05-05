@@ -115,7 +115,7 @@ public final class RDFMapper {
 	public static final IRI VALUE = SimpleValueFactory.getInstance().createIRI(DEFAULT_NAMESPACE, "_value");
 	public static final IRI HAS_ENTRY = SimpleValueFactory.getInstance().createIRI(DEFAULT_NAMESPACE, "_hasEntry");
 
-	private final ImmutableBiMap<IRI, Class> mMappings;
+	private final ImmutableBiMap<IRI, Class<?>> mMappings;
 
 	private final ImmutableMap<Class<?>, Function<Object, Resource>> mIdFunctions;
 
@@ -135,7 +135,7 @@ public final class RDFMapper {
 		PropertyUtils.addBeanIntrospector(new FluentPropertyBeanIntrospector());
 	}
 
-	private RDFMapper(final Map<IRI, Class> theMappings,
+	private RDFMapper(final Map<IRI, Class<?>> theMappings,
 	                  final Map<Class<?>, Function<Object, Resource>> theIdFunctions,
 	                  final ValueFactory theValueFactory,
 	                  final Map<String, String> theNamespaces,
@@ -673,7 +673,7 @@ public final class RDFMapper {
 		}
 	}
 
-	private Class pinpointClass(final Model theGraph, final Resource theResource, final PropertyDescriptor theDescriptor) {
+	private Class<?> pinpointClass(final Model theGraph, final Resource theResource, final PropertyDescriptor theDescriptor) {
 		Class aClass = theDescriptor.getPropertyType();
 
 		if (Collection.class.isAssignableFrom(aClass)) {
@@ -1103,7 +1103,7 @@ public final class RDFMapper {
 		 * @param theClass      the corresponding Java class
 		 * @return              this builder
 		 */
-		public Builder map(final IRI theClassURI, final Class theClass) {
+		public Builder map(final IRI theClassURI, final Class<?> theClass) {
 			Preconditions.checkNotNull(theClassURI);
 			Preconditions.checkNotNull(theClass);
 
