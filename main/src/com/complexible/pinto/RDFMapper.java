@@ -673,7 +673,7 @@ public final class RDFMapper {
 		}
 	}
 
-	private Class pinpointClass(final Model theGraph, final Resource theResource, final PropertyDescriptor theDescriptor) {
+	private Class<?> pinpointClass(final Model theGraph, final Resource theResource, final PropertyDescriptor theDescriptor) {
 		Class aClass = theDescriptor.getPropertyType();
 
 		if (Collection.class.isAssignableFrom(aClass)) {
