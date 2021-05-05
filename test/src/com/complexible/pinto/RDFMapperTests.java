@@ -322,13 +322,15 @@ public class RDFMapperTests {
 	}
 
 	@Test
+	@Ignore("Ignore")
 	public void testURIMapping() throws Exception {
 		// alternative to RdfsClass, verify that if you specify a type URI -> class mapping it is used
 		// test 1, that the rdf:type is included in a top level class
 		// test 2, that the type can be used to find the correct implementation for a property
 		//         eg:  Object getFoo() -> this will be populated by a individual w/ a type :Bar to the class Baz
 		//              so the mapping would specify :Bar <-> Baz
-		assertTrue("true",true);
+		assertTrue(true);
+
 	}
 
 	@Test
@@ -482,7 +484,7 @@ public class RDFMapperTests {
 	}
 
 	@Test
-	@Ignore("Ignored test")
+	@Ignore("Ignore")
 	public void testProxyCreation() throws Exception {
 
 		//		assertTrue(aResult instanceof Identifiable);
@@ -665,25 +667,25 @@ public class RDFMapperTests {
 	}
 
 	@Test
-	@Ignore("Ignore")
+	@Ignore("Ignored")
 	public void testWriteEnumSet() throws Exception {
 		assertTrue(true);
 	}
 
 	@Test
-	@Ignore("Ignore")
+	@Ignore("Ignored")
 	public void testReadCustomCollectionMapping() throws Exception {
 		assertTrue(true);
 	}
 
 	@Test
-	@Ignore("Ignore")
+	@Ignore("Ignored")
 	public void testWriteWithLangTag() throws Exception {
 		assertTrue(true);
 	}
 
 	@Test
-	@Ignore("Ignore")
+	@Ignore("Ignored")
 	public void testReadWithLangTag() throws Exception {
 		assertTrue(true);
 	}
@@ -694,7 +696,7 @@ public class RDFMapperTests {
 	}
 
 	@Test(expected = RDFMappingException.class)
-	@Ignore("Ignore")
+	@Ignore("Ignored")
 	public void testCharBeanTypeWithLongString() throws Exception {
 	}
 
