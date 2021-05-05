@@ -1177,7 +1177,7 @@ public final class RDFMapper {
 	public static class DefaultMapFactory implements MapFactory {
 		@Override
 		public Map create(final PropertyDescriptor theDescriptor) {
-			final Class<?> aType = theDescriptor.getPropertyType();
+			final Class aType = theDescriptor.getPropertyType();
 
 			try {
 				// try creating a new instance.  this will work if they've specified a concrete type *and* it has a
