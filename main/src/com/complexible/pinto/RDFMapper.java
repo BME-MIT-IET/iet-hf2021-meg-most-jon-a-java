@@ -203,9 +203,13 @@ public final class RDFMapper {
 
 	private static boolean isIgnored(final PropertyDescriptor thePropertyDescriptor) {
 		// we'll ignore getClass() on the bean
-		return thePropertyDescriptor.getName().equals("class")
-				&& thePropertyDescriptor.getReadMethod().getDeclaringClass() == Object.class
-				&& thePropertyDescriptor.getReadMethod().getReturnType().equals(Class.class);
+		if (thePropertyDescriptor.getName().equals("class")
+		    && thePropertyDescriptor.getReadMethod().getDeclaringClass() == Object.class
+		    && thePropertyDescriptor.getReadMethod().getReturnType().equals(Class.class)) {
+			return  true;
+		}
+
+		return false;
 	}
 
 	/**
@@ -456,7 +460,7 @@ public final class RDFMapper {
 			theBuilder.addProperty(theProperty, enumToURI((Enum) theObj));
 		}
 		else if (Collection.class.isAssignableFrom(theObj.getClass())) {
-			final Collection aCollection = (Collection) theObj;
+			final Collection<?> aCollection = (Collection) theObj;
 
 			if (serializeCollectionsAsRDFList(thePropertyDescriptor)) {
 				List<Value> aList = Lists.newArrayListWithExpectedSize(aCollection.size());
@@ -572,7 +576,7 @@ public final class RDFMapper {
 	private Object valueToObject(final Value theValue, final Model theGraph, final PropertyDescriptor theDescriptor) {
 		if (theValue instanceof Literal) {
 			final Literal aLit = (Literal) theValue;
-			final IRI aDatatype = aLit.getDatatype() != null ? aLit.getDatatype() : null;
+			final IRI aDatatype = aLit.getDatatype();
 
 			if (aDatatype == null || XMLSchema.STRING.equals(aDatatype) || RDFS.LITERAL.equals(aDatatype)) {
 				String aStr = aLit.getLabel();
