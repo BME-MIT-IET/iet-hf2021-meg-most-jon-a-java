@@ -43,10 +43,10 @@ public final class Beans {
 	 * @return true if its a primitive, false otherwise.
 	 */
 	public static boolean isPrimitive(Object theObj) {
-		return (Boolean.class.isInstance(theObj) || Integer.class.isInstance(theObj) || Long.class.isInstance(theObj)
-		        || Short.class.isInstance(theObj) || Double.class.isInstance(theObj) || Float.class.isInstance(theObj)
-		        || Date.class.isInstance(theObj) || String.class.isInstance(theObj) || Character.class.isInstance(theObj)
-		        || java.net.URI.class.isInstance(theObj));
+		return (theObj instanceof Boolean || theObj instanceof Integer || theObj instanceof Long
+		        || theObj instanceof Short || theObj instanceof Double || theObj instanceof Float
+		        || theObj instanceof Date || theObj instanceof String || theObj instanceof Character
+		        || theObj instanceof java.net.URI);
 	}
 
 	/**
