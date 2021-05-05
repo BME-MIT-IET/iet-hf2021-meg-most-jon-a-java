@@ -115,7 +115,7 @@ public final class RDFMapper {
 	public static final IRI VALUE = SimpleValueFactory.getInstance().createIRI(DEFAULT_NAMESPACE, "_value");
 	public static final IRI HAS_ENTRY = SimpleValueFactory.getInstance().createIRI(DEFAULT_NAMESPACE, "_hasEntry");
 
-	private final ImmutableBiMap<IRI, Class<?>> mMappings;
+	private final ImmutableBiMap<IRI, Class> mMappings;
 
 	private final ImmutableMap<Class<?>, Function<Object, Resource>> mIdFunctions;
 
