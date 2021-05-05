@@ -493,7 +493,7 @@ public final class RDFMapper {
 
 			if (!aMap.isEmpty()) {
 				ResourceBuilder aRes = theGraph.instance();
-				for (Map.Entry aMapEntry : (Set<Map.Entry>) aMap.entrySet()) {
+				for (Map.Entry<IRI, Class<?>> aMapEntry : (Set<Map.Entry>) aMap.entrySet()) {
 					ResourceBuilder aEntryRes = theGraph.instance();
 
 					setValue(theGraph, aEntryRes, null, KEY, aMapEntry.getKey());
@@ -663,7 +663,7 @@ public final class RDFMapper {
 
 			final Class<?> aClass = pinpointClass(theGraph, aResource, theDescriptor);
 
-			RDFCodec aCodec = mCodecs.get(aClass);
+			RDFCodec<?> aCodec = mCodecs.get(aClass);
 			if (aCodec != null) {
 				return aCodec.readValue(theGraph, aResource);
 			}
