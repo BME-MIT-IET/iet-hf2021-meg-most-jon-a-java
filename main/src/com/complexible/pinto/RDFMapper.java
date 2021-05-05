@@ -245,7 +245,7 @@ public final class RDFMapper {
 				continue;
 			}
 			else if (Collection.class.isAssignableFrom(aDescriptor.getPropertyType())) {
-				final Collection aIterable = mCollectionFactory.create(aDescriptor);
+				final Collection<?> aIterable = mCollectionFactory.create(aDescriptor);
 
 				Collection<Value> aElems = Lists.newArrayListWithCapacity(aValues.size());
 
@@ -347,7 +347,7 @@ public final class RDFMapper {
 		return aInst;
 	}
 
-	private Class type(final Model theGraph, final Resource theValue) {
+	private Class<?> type(final Model theGraph, final Resource theValue) {
 		final Iterable<Resource> aTypes = Models2.getTypes(theGraph, theValue);
 		for (Resource aType : aTypes) {
 			final Class aClass = mMappings.get(aType);
@@ -456,7 +456,7 @@ public final class RDFMapper {
 			theBuilder.addProperty(theProperty, enumToURI((Enum) theObj));
 		}
 		else if (Collection.class.isAssignableFrom(theObj.getClass())) {
-			final Collection aCollection = (Collection) theObj;
+			final Collection<?> aCollection = (Collection) theObj;
 
 			if (serializeCollectionsAsRDFList(thePropertyDescriptor)) {
 				List<Value> aList = Lists.newArrayListWithExpectedSize(aCollection.size());
