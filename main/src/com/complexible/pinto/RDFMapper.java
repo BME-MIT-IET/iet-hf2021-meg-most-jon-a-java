@@ -420,13 +420,13 @@ public final class RDFMapper {
 				final PropertyDescriptor aDescriptor = PropertyUtils.getPropertyDescriptor(theValue, aEntry.getKey());
 
 				if (isIgnored(aDescriptor)) {
-					continue;
+					
 				}
 
 				final IRI aProperty = getProperty(aDescriptor);
 
 				if (aProperty == null) {
-					continue;
+					
 				}
 
 				final Object aObj = aEntry.getValue();
