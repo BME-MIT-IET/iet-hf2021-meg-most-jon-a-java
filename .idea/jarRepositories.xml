@@ -21,5 +21,15 @@
       <option name="name" value="maven" />
       <option name="url" value="http://maven.stardog.com" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="http://maven.petrikainulainen.net/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://maven.stardog.com" />
+    </remote-repository>
   </component>
 </project>
