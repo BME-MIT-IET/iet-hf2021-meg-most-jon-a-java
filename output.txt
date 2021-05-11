@@ -128,3 +128,6 @@ tabla_stabilitas= stabil
 tabla_stabilitas= stabil
 iglu_epult
 npc_lepett_0_evett
+iglu_epult
+iglu_epult
+npc_lepett_0_evett
