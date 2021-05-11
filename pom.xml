@@ -4,6 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+         
+          <properties>
+           <sonar.projectKey>BME-MIT-IET_iet-hf2021-meg-most-jon-a-java</sonar.projectKey>
+           <sonar.organization>bme-mit-iet-org</sonar.organization>
+           <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+         </properties>
+         
     <properties>
         <maven.compiler.source>11.2</maven.compiler.source>
         <maven.compiler.target>11.2</maven.compiler.target>
