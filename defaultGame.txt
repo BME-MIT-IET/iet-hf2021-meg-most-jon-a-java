@@ -1,0 +1,70 @@
+ujJatek
+hozzaadTabla 1 9 2 2
+hozzaadTabla 1 10 1 1
+hozzaadTabla 2 1 4 1
+hozzaadTabla 1 10 1 1
+hozzaadTabla 2 8 4 0
+hozzaadTabla 1 8 2 2
+hozzaadTabla 2 5 3 2
+hozzaadTabla 1 10 1 2
+hozzaadTabla 1 10 2 2
+hozzaadTabla 1 10 4 2
+hozzaadTabla 2 3 2 2
+hozzaadTabla 2 2 7 0
+hozzaadTabla 2 3 4 2
+hozzaadTabla 2 3 6 2
+hozzaadTabla 2 9 7 0
+hozzaadTabla 3 0 0 0
+hozzaadTabla 3 0 0 1
+hozzaadTabla 2 2 2 2
+hozzaadTabla 1 10 0 2
+hozzaadTabla 1 6 5 0
+hozzaadTabla 1 10 5 0
+hozzaadTabla 1 10 7 2
+hozzaadTabla 1 3 6 2
+hozzaadTabla 1 10 5 1
+hozzaadTabla 1 3 6 2
+kapcsolat 0 1
+kapcsolat 0 5
+kapcsolat 1 2
+kapcsolat 1 6
+kapcsolat 2 3
+kapcsolat 2 7
+kapcsolat 3 4
+kapcsolat 3 8
+kapcsolat 4 9
+kapcsolat 5 6
+kapcsolat 5 10
+kapcsolat 6 7
+kapcsolat 6 11
+kapcsolat 7 8
+kapcsolat 7 12
+kapcsolat 8 9
+kapcsolat 8 13
+kapcsolat 9 14
+kapcsolat 10 11
+kapcsolat 10 15
+kapcsolat 11 12
+kapcsolat 11 16
+kapcsolat 12 13
+kapcsolat 12 17
+kapcsolat 13 14
+kapcsolat 13 18
+kapcsolat 14 19
+kapcsolat 15 16
+kapcsolat 15 20
+kapcsolat 16 17
+kapcsolat 16 21
+kapcsolat 17 18
+kapcsolat 17 22
+kapcsolat 18 19
+kapcsolat 18 23
+kapcsolat 19 24
+kapcsolat 20 21
+kapcsolat 21 22
+kapcsolat 22 23
+kapcsolat 23 24
+hozzaadKarakter 1 0
+hozzaadKarakter 1 0
+hozzaadKarakter 2 24
+hozzaadNpc 1 5
