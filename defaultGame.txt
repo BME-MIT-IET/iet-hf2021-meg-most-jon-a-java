@@ -1,29 +1,29 @@
 ujJatek
 hozzaadTabla 1 3 6 2
-hozzaadTabla 1 3 3 0
-hozzaadTabla 2 7 2 0
+hozzaadTabla 1 6 0 1
 hozzaadTabla 1 10 2 2
-hozzaadTabla 2 7 0 1
-hozzaadTabla 1 0 2 0
-hozzaadTabla 2 4 2 2
-hozzaadTabla 2 4 4 1
-hozzaadTabla 1 10 1 0
-hozzaadTabla 1 10 1 1
-hozzaadTabla 2 3 7 0
-hozzaadTabla 3 0 0 1
 hozzaadTabla 1 10 5 2
-hozzaadTabla 1 3 6 2
-hozzaadTabla 2 9 2 0
-hozzaadTabla 1 10 4 1
-hozzaadTabla 3 0 0 1
-hozzaadTabla 1 10 0 1
-hozzaadTabla 1 10 3 2
-hozzaadTabla 1 0 5 0
-hozzaadTabla 1 10 4 2
 hozzaadTabla 1 10 7 0
-hozzaadTabla 1 10 2 2
+hozzaadTabla 1 10 2 0
+hozzaadTabla 2 5 7 1
+hozzaadTabla 3 0 0 1
 hozzaadTabla 1 3 6 2
-hozzaadTabla 1 0 2 0
+hozzaadTabla 1 10 5 2
+hozzaadTabla 3 0 0 1
+hozzaadTabla 1 10 2 0
+hozzaadTabla 1 10 7 2
+hozzaadTabla 2 6 7 1
+hozzaadTabla 2 9 4 2
+hozzaadTabla 2 4 4 1
+hozzaadTabla 1 10 7 0
+hozzaadTabla 1 10 5 0
+hozzaadTabla 2 6 2 1
+hozzaadTabla 1 3 7 2
+hozzaadTabla 1 10 1 0
+hozzaadTabla 2 3 6 2
+hozzaadTabla 2 9 2 2
+hozzaadTabla 1 10 7 2
+hozzaadTabla 1 10 3 0
 kapcsolat 0 1
 kapcsolat 0 5
 kapcsolat 1 2
