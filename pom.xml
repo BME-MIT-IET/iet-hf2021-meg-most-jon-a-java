@@ -5,13 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
          
-          <properties>
-           <sonar.projectKey>BME-MIT-IET_iet-hf2021-meg-most-jon-a-java</sonar.projectKey>
-           <sonar.organization>bme-mit-iet-org</sonar.organization>
-           <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-         </properties>
-         
-    <properties>
+     <properties>
+        <sonar.projectKey>BME-MIT-IET_iet-hf2021-meg-most-jon-a-java</sonar.projectKey>
+        <sonar.organization>bme-mit-iet-org</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <maven.compiler.source>11.2</maven.compiler.source>
         <maven.compiler.target>11.2</maven.compiler.target>
     </properties>
