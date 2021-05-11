@@ -22,31 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="441a7243-e8b0-422e-bb95-7802c218dc22" name="Default Changelist" comment="add mavenpom">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/Szoplab-Jegmezo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_BearEatsResearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_EskimoUsedSkill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_PlayersEnergyShouldDecreaseAfterMooving.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_ResearcherUsedSkill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_UnstableTableFlips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/EszkimoKepessegetHasznal.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/InstabilTablaAtfordul.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/JatokosEnergiajaCsokkenMozgasUtan.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/JegesmedveMegeszikValakit.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/SarkkutatoKepessegetHasznal.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/iet-hf2021-meg-most-jon-a-java2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iet-hf2021-meg-most-jon-a-java2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021__05__11__11_29__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021__05__11__11_29__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultGame.txt" beforeDir="false" afterPath="$PROJECT_DIR$/defaultGame.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-    </list>
+    <list default="true" id="441a7243-e8b0-422e-bb95-7802c218dc22" name="Default Changelist" comment="Elkeszültek a tesztek" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620724021492</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Elkeszültek a tesztek">
+      <created>1620752000594</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620752000594</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +243,7 @@
     <MESSAGE value="configure" />
     <MESSAGE value="add maven" />
     <MESSAGE value="add mavenpom" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mavenpom" />
+    <MESSAGE value="Elkeszültek a tesztek" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elkeszültek a tesztek" />
   </component>
 </project>
