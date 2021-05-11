@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="441a7243-e8b0-422e-bb95-7802c218dc22" name="Default Changelist" comment="add mavenpom">
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_UseEtel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_UseLapat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/EtelHasznalat.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/LapatHasznalat.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/iet-hf2021-meg-most-jon-a-java2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iet-hf2021-meg-most-jon-a-java2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021__05__11__11_29__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021__05__11__11_29__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaultGame.txt" beforeDir="false" afterPath="$PROJECT_DIR$/defaultGame.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Buvarruha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Buvarruha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dolog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dolog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Epitmeny.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Epitmeny.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EskimoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EskimoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Eszkimo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Eszkimo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Etel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Etel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Iglu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Iglu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InstabilTabla.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InstabilTabla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Jatek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Jatek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JatekVezerlo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JatekVezerlo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Jegesmedve.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Jegesmedve.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Karakter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Karakter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KarakterView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/KarakterView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Kotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Kotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lapat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lapat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Mezo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mezo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Npc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Npc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PisztolyAlkatresz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PisztolyAlkatresz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sarkkutato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sarkkutato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tabla.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tabla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TablaButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TablaButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TablaView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TablaView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_IsThereDivingSuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_IsThereDivingSuit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_IsThereFood.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_IsThereFood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_IsThereIgloo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_IsThereIgloo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_IsTherePolarBear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_IsTherePolarBear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_IsThereRope.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_IsThereRope.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tesztek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tesztek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TorekenyLapat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TorekenyLapat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View$elem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View$elem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Viz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Viz.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="CI-branch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sNpyurcbuOfAy9KAAc5AM3zm7M" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Szoplab-Jegmezo/src" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Suli\Egyetem__BME\6_Integracios_es_ellenorzesi_tech\Házi2\iet-hf2021-meg-most-jon-a-java\Szoplab-Jegmezo\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: EtelHasznalat">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="iet-hf2021-meg-most-jon-a-java2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: EtelHasznalat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/EtelHasznalat.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="iet-hf2021-meg-most-jon-a-java2" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: EtelHasznalat" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: JegesmedveLetezik" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/JegesmedveLetezik.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="iet-hf2021-meg-most-jon-a-java2" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: JegesmedveLetezik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: isDivingSuit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/BuvarruhaLetezik.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.cli.Main" />
+      <module name="iet-hf2021-meg-most-jon-a-java2" />
+      <option name="NAME_FILTER" value="^isDivingSuit$" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^isDivingSuit$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: isDivingSuit" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: useLapat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/LapatHasznalat.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="iet-hf2021-meg-most-jon-a-java2" />
+      <option name="NAME_FILTER" value="^useLapat$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^useLapat$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: useLapat" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: EtelHasznalat" />
+        <item itemvalue="Cucumber Java.Scenario: useLapat" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Cucumber Java.Scenario: isDivingSuit" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="441a7243-e8b0-422e-bb95-7802c218dc22" name="Default Changelist" comment="" />
+      <created>1620723159534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620723159534</updated>
+      <workItem from="1620723164368" duration="19000" />
+      <workItem from="1620723203655" duration="2246000" />
+      <workItem from="1620725484022" duration="2709000" />
+      <workItem from="1620729595762" duration="2195000" />
+      <workItem from="1620739957208" duration="15000" />
+      <workItem from="1620739977617" duration="419000" />
+      <workItem from="1620740408483" duration="5959000" />
+    </task>
+    <task id="LOCAL-00001" summary="configure">
+      <created>1620723283555</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620723283555</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add maven">
+      <created>1620723565691</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620723565691</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add mavenpom">
+      <created>1620724021492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620724021492</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="configure" />
+    <MESSAGE value="add maven" />
+    <MESSAGE value="add mavenpom" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mavenpom" />
+  </component>
+</project>

@@ -1,0 +1,289 @@
+ujJatek
+hozzaadTabla 1 2 2 2
+hozzaadTabla 1 0 1 0
+hozzaadTabla 1 10 2 2
+hozzaadTabla 2 6 2 0
+hozzaadTabla 2 2 0 1
+hozzaadTabla 1 10 3 1
+hozzaadTabla 1 10 0 0
+hozzaadTabla 3 0 0 1
+hozzaadTabla 2 6 2 1
+hozzaadTabla 1 10 7 0
+hozzaadTabla 1 7 1 2
+hozzaadTabla 2 2 3 0
+hozzaadTabla 2 9 2 0
+hozzaadTabla 2 7 7 0
+hozzaadTabla 1 10 2 0
+hozzaadTabla 2 3 6 2
+hozzaadTabla 1 10 4 1
+hozzaadTabla 3 0 0 1
+hozzaadTabla 1 10 3 1
+hozzaadTabla 2 4 5 0
+hozzaadTabla 2 8 7 1
+hozzaadTabla 1 10 5 2
+hozzaadTabla 2 9 3 2
+hozzaadTabla 3 0 0 1
+hozzaadTabla 3 0 0 0
+hozzaadTabla 1 10 0 2
+hozzaadTabla 1 10 4 1
+hozzaadTabla 2 7 7 0
+hozzaadTabla 1 10 2 0
+hozzaadTabla 1 10 3 0
+hozzaadTabla 2 2 2 2
+hozzaadTabla 3 0 0 1
+hozzaadTabla 1 10 2 0
+hozzaadTabla 1 10 2 0
+hozzaadTabla 1 10 1 2
+hozzaadTabla 2 4 2 1
+hozzaadTabla 1 10 2 0
+hozzaadTabla 2 8 2 0
+hozzaadTabla 2 2 5 1
+hozzaadTabla 1 10 5 2
+hozzaadTabla 1 10 5 0
+hozzaadTabla 2 5 2 1
+hozzaadTabla 1 10 1 2
+hozzaadTabla 1 10 2 1
+hozzaadTabla 2 1 3 0
+hozzaadTabla 1 10 0 1
+hozzaadTabla 1 10 2 0
+hozzaadTabla 2 7 7 0
+hozzaadTabla 1 10 5 2
+hozzaadTabla 2 3 1 2
+hozzaadTabla 2 8 3 0
+hozzaadTabla 1 10 1 1
+hozzaadTabla 3 0 0 0
+hozzaadTabla 1 10 5 1
+hozzaadTabla 1 10 1 0
+hozzaadTabla 1 10 7 1
+hozzaadTabla 3 0 0 2
+hozzaadTabla 1 10 5 0
+hozzaadTabla 1 10 0 1
+hozzaadTabla 3 0 0 1
+hozzaadTabla 2 7 3 1
+hozzaadTabla 1 10 0 0
+hozzaadTabla 2 9 7 0
+hozzaadTabla 1 10 1 1
+hozzaadTabla 1 10 4 1
+hozzaadTabla 2 2 3 2
+hozzaadTabla 2 9 1 2
+hozzaadTabla 2 4 4 2
+hozzaadTabla 2 7 3 0
+hozzaadTabla 2 9 5 2
+hozzaadTabla 1 10 1 2
+hozzaadTabla 2 3 6 2
+hozzaadTabla 2 6 5 0
+hozzaadTabla 3 0 0 0
+hozzaadTabla 2 2 2 2
+hozzaadTabla 1 10 2 2
+hozzaadTabla 2 8 2 1
+hozzaadTabla 2 6 2 0
+hozzaadTabla 2 6 7 0
+hozzaadTabla 2 7 3 0
+hozzaadTabla 3 0 0 0
+hozzaadTabla 2 9 2 1
+hozzaadTabla 1 10 1 1
+hozzaadTabla 3 0 0 2
+hozzaadTabla 2 7 3 0
+hozzaadTabla 1 10 0 2
+hozzaadTabla 1 10 7 2
+hozzaadTabla 2 6 3 2
+hozzaadTabla 2 2 3 1
+hozzaadTabla 1 5 4 1
+hozzaadTabla 2 7 2 0
+hozzaadTabla 1 3 6 2
+hozzaadTabla 1 10 4 2
+hozzaadTabla 1 10 4 1
+hozzaadTabla 2 6 2 1
+hozzaadTabla 2 8 2 1
+hozzaadTabla 1 10 0 0
+hozzaadTabla 2 3 7 2
+hozzaadTabla 1 10 2 0
+hozzaadTabla 1 10 5 1
+kapcsolat 0 1
+kapcsolat 0 10
+kapcsolat 1 2
+kapcsolat 1 11
+kapcsolat 2 3
+kapcsolat 2 12
+kapcsolat 3 4
+kapcsolat 3 13
+kapcsolat 4 5
+kapcsolat 4 14
+kapcsolat 5 6
+kapcsolat 5 15
+kapcsolat 6 7
+kapcsolat 6 16
+kapcsolat 7 8
+kapcsolat 7 17
+kapcsolat 8 9
+kapcsolat 8 18
+kapcsolat 9 19
+kapcsolat 10 11
+kapcsolat 10 20
+kapcsolat 11 12
+kapcsolat 11 21
+kapcsolat 12 13
+kapcsolat 12 22
+kapcsolat 13 14
+kapcsolat 13 23
+kapcsolat 14 15
+kapcsolat 14 24
+kapcsolat 15 16
+kapcsolat 15 25
+kapcsolat 16 17
+kapcsolat 16 26
+kapcsolat 17 18
+kapcsolat 17 27
+kapcsolat 18 19
+kapcsolat 18 28
+kapcsolat 19 29
+kapcsolat 20 21
+kapcsolat 20 30
+kapcsolat 21 22
+kapcsolat 21 31
+kapcsolat 22 23
+kapcsolat 22 32
+kapcsolat 23 24
+kapcsolat 23 33
+kapcsolat 24 25
+kapcsolat 24 34
+kapcsolat 25 26
+kapcsolat 25 35
+kapcsolat 26 27
+kapcsolat 26 36
+kapcsolat 27 28
+kapcsolat 27 37
+kapcsolat 28 29
+kapcsolat 28 38
+kapcsolat 29 39
+kapcsolat 30 31
+kapcsolat 30 40
+kapcsolat 31 32
+kapcsolat 31 41
+kapcsolat 32 33
+kapcsolat 32 42
+kapcsolat 33 34
+kapcsolat 33 43
+kapcsolat 34 35
+kapcsolat 34 44
+kapcsolat 35 36
+kapcsolat 35 45
+kapcsolat 36 37
+kapcsolat 36 46
+kapcsolat 37 38
+kapcsolat 37 47
+kapcsolat 38 39
+kapcsolat 38 48
+kapcsolat 39 49
+kapcsolat 40 41
+kapcsolat 40 50
+kapcsolat 41 42
+kapcsolat 41 51
+kapcsolat 42 43
+kapcsolat 42 52
+kapcsolat 43 44
+kapcsolat 43 53
+kapcsolat 44 45
+kapcsolat 44 54
+kapcsolat 45 46
+kapcsolat 45 55
+kapcsolat 46 47
+kapcsolat 46 56
+kapcsolat 47 48
+kapcsolat 47 57
+kapcsolat 48 49
+kapcsolat 48 58
+kapcsolat 49 59
+kapcsolat 50 51
+kapcsolat 50 60
+kapcsolat 51 52
+kapcsolat 51 61
+kapcsolat 52 53
+kapcsolat 52 62
+kapcsolat 53 54
+kapcsolat 53 63
+kapcsolat 54 55
+kapcsolat 54 64
+kapcsolat 55 56
+kapcsolat 55 65
+kapcsolat 56 57
+kapcsolat 56 66
+kapcsolat 57 58
+kapcsolat 57 67
+kapcsolat 58 59
+kapcsolat 58 68
+kapcsolat 59 69
+kapcsolat 60 61
+kapcsolat 60 70
+kapcsolat 61 62
+kapcsolat 61 71
+kapcsolat 62 63
+kapcsolat 62 72
+kapcsolat 63 64
+kapcsolat 63 73
+kapcsolat 64 65
+kapcsolat 64 74
+kapcsolat 65 66
+kapcsolat 65 75
+kapcsolat 66 67
+kapcsolat 66 76
+kapcsolat 67 68
+kapcsolat 67 77
+kapcsolat 68 69
+kapcsolat 68 78
+kapcsolat 69 79
+kapcsolat 70 71
+kapcsolat 70 80
+kapcsolat 71 72
+kapcsolat 71 81
+kapcsolat 72 73
+kapcsolat 72 82
+kapcsolat 73 74
+kapcsolat 73 83
+kapcsolat 74 75
+kapcsolat 74 84
+kapcsolat 75 76
+kapcsolat 75 85
+kapcsolat 76 77
+kapcsolat 76 86
+kapcsolat 77 78
+kapcsolat 77 87
+kapcsolat 78 79
+kapcsolat 78 88
+kapcsolat 79 89
+kapcsolat 80 81
+kapcsolat 80 90
+kapcsolat 81 82
+kapcsolat 81 91
+kapcsolat 82 83
+kapcsolat 82 92
+kapcsolat 83 84
+kapcsolat 83 93
+kapcsolat 84 85
+kapcsolat 84 94
+kapcsolat 85 86
+kapcsolat 85 95
+kapcsolat 86 87
+kapcsolat 86 96
+kapcsolat 87 88
+kapcsolat 87 97
+kapcsolat 88 89
+kapcsolat 88 98
+kapcsolat 89 99
+kapcsolat 90 91
+kapcsolat 91 92
+kapcsolat 92 93
+kapcsolat 93 94
+kapcsolat 94 95
+kapcsolat 95 96
+kapcsolat 96 97
+kapcsolat 97 98
+kapcsolat 98 99
+hozzaadKarakter 1 0
+hozzaadKarakter 1 0
+hozzaadKarakter 2 99
+hozzaadNpc 1 37
+hozzaadNpc 1 93
+hozzaadNpc 1 86
+hozzaadNpc 1 85
+hozzaadNpc 1 53
