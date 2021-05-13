@@ -131,3 +131,6 @@ npc_lepett_0_evett
 iglu_epult
 iglu_epult
 npc_lepett_0_evett
+karakter_dologfelvetel_sikeres
+karakter_dologfelvetel_sikeres
+karakter_dologfelvetel_sikeres
