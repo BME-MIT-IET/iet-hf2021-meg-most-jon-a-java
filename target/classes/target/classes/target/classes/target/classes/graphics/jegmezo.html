@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html>
+<title>Jégmező</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+
+
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+    <div class="w3-container">
+        <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+            <i class="fa fa-remove"></i>
+        </a>
+        <img src="ikon.png" style="width:45%;" class="w3-round"><br><br>
+
+
+        <h4><b>Jégmező</b></h4>
+        <p class="w3-text-grey">agyonspecializalodott-algoritmusok</p>
+    </div>
+
+    <div class="w3-bar-block">
+        <a href="#játék" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-home fa-fw w3-margin-right"></i>A Játék</a>
+
+        <a href="#súgó" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-info fa-fw w3-margin-right"></i>Súgó</a>
+
+        <a href="#leírás" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Játék leírása</a>
+
+        <a href="#szabály" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th fa-fw w3-margin-right"></i>Játékszabályok</a>
+    </div>
+
+</nav>
+
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+
+
+    <!-- Header -->
+    <header id="Jegmezo">
+        <a href="#"><img src="ikon.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+        <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+        <div class="w3-container">
+            <h1><b>Jégmező</b></h1>
+        </div>
+    </header>
+
+
+    <!-- Images of Me -->
+    <div class="w3-row-padding w3-padding-16" id="játék">
+        <div class="w3-col m6">
+            <img src="betoltokep.png" alt="Betolto kep" style="width:300px">
+        </div>
+        <div class="w3-col m6">
+            <img src="jatek.png" alt="Jatek" style="width:450px" >
+        </div>
+    </div>
+
+    <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+        <h4><b>A játékról</b></h4>
+        <p>Ez egy stratégiai, illetve csapat játék, ahol a játékosoknak a  választott karakterekkel kell összedolgozniuk, hogy közösen megnyerhessék a játékot a zord jégmezőkőn, amelyet különböző külső tényezők nehezíthetnek. </p>
+    </div>
+
+
+    <!-- First Photo Grid-->
+    <div class="w3-row" id="súgó" >
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <p style="text-align:center;">
+                <img src="torottmaci.png" alt="torottmaci" style="width:400px" >
+                <div class="w3-container w3-white">
+            <p><b>Súgó</b></p>
+            <pre>
+<b>Menürendszer: </b>
+-<b>Beállítások:</b> Mentése után az <b>Új</b> gombra kell nyomni
+-<b>Mentés:</b> Aktuális játákállás mentése
+-<b>Betöltés:</b> Előzőleg elmentett játék betöltése
+-<b>Új:</b> Új játék létrehozása:
+    -<b>Generált:</b> Beállítások alapján generált pálya
+    -<b>Egyedi:</b> Saját egyedi pálya létrehozása
+    	(Egy txt fájl nevét fogja kérni, amiben parancsok vannak)
+
+<b>Irányítás: </b>
+-<b>Q:</b> tárgyváltás
+-<b>W + kattintás:</b> lépni lehet a sárgával kijelölt mezőkre
+-<b>F: </b>tárgyfelvétel
+-<b>E + kattintás: </b>tárgyhasználat a kiválasztott táblán
+-<b>R + kattintás:</b> képesség használat a kiválasztott táblán
+-<b>Space: </b>eltűntet minden kijelölést
+
+<b>Táblák színei:</b>
+-<b>fekete:</b> az aktuális tábla, ahol állunk
+-<b style="color:green">zöld:</b> szomszédos táblák
+-<b style="color:#F5EA05">sárga: </b>választható tábla
+-<b style="color:red">piros:</b> kijelölt tábla
+</pre>
+        </div>
+    </div>
+
+
+
+    <div class="w3-row" id="leírás">
+        <div class="w3-container w3-padding-large" style="magrgin-bottom:32 px">
+            <p style="text-align:center;">
+                <img src="jegesmedve.png" alt="jegesmaci"  style="width:400px" >
+                <div class="w3-container w3-white">
+            <p><b>Játék leírás</b></p>
+            <p>
+                A játékban a különböző képességű szereplőknek (3 vagy több játékos lehet)
+                kell egy tengerrel körülvett jégmezőn túlélniük. A szereplők lehetnek
+                eszkimók vagy sarkkutatók, és körökre osztva tevékenykednek. </p>
+            <p>
+                A jégmező jégtáblákból áll. Vannak stabil jégtáblák, amelyeken akárhány
+                szereplő állhat, és vannak instabil jégtáblák, amik adott létszám felett
+                átfordulnak és ilyenkor a rajtuk állók a vízbe esnek és meghalnak. A jégtáblákat a
+                játékkezdetén eltérő mennyiségű hó borítja. </p>
+            <p>
+                Az egyes jégtáblákba különféle tárgyak lehetnek belefagyva: lapát, kötél,
+                búvárruha, élelem stb. Befagyott tárgyat csak akkor lehet meglátni és
+                kiásni, ha a jégtábla tiszta, azaz nem borítja hó. A jégtáblák között lehetnek
+                hóval fedett lyukak is, amibe beleesve a karakter nem tud csináni semmit,
+                munkája nullára csökken. Ezen kívül egy kör után meghal, csak a búvárruhát viselők élik
+                túl, vagy azok, akiket egy köteles barátjuk a szomszéd jégtábláról
+                hamar kimenekít. </p>
+            <p>
+                Minden szereplő egy körben 4 egységnyi munkát végezhet. Ilyen munka
+                például a jégtáblán levő egységnyi mennyiségű hó eltakarítása, egy
+                szomszédos jégtáblára való lépés vagy egy kiásott tárgy felvétele.
+                A lapáttal két egységnyi hó takarítható el egy munkaráfordítással. </p>
+            <p>
+                A jégmezőn időnként feltámad a hóvihar, és néhány érintett jégtáblát
+                újabb adag friss hóval borít be. Akit elkap, annak a testhője egységnyivel
+                csökken. Az eszkimóknak a játék elején 5 egység testhője van, a
+                sarkkutatónak csak 4. Egy élelem eggyel növeli a testhőt, ha még nem maximális. </p>
+            <p>
+                Ezenkívül van még a jegesmedve, ami minden körben lép egyet, és,
+                akit elkap (azonos jégtáblán áll), azt elkapja és megöli. A medve ellen
+                az iglu véd, de a sátor nem. </p>
+            <p>
+                A szereplők jégtábláról-jégtáblára haladnak képességeiknek megfelelően.
+                A sarkkutató meg tudja nézni, hogy az a jégtábla, amire lépne, hány
+                embert bír el (a lyuk egyet sem). Az eszkimó tud iglut építeni, amiben
+                átvészelhetők a hóviharok. Egy-egy képesség alkalmazása is egy-egy
+                munkát jelent. </p>
+            <p>
+                A játék célja egy jelzőrakéta alkatrészeinek (pisztoly, jelzőfény, patron)
+                megtalálása. Az alkatrészek is a jégbe vannak fagyva. Ha ezeket a csapat
+                összegyűjti és ugyanarra a jégtáblára viszi, akkor egy munka
+                felhasználásával összeszerelhetik és elsüthetik, amivel megnyerik
+                a játékot. Ehhez azonban mindannyiuknak ugyanott kell állniuk.
+                Ha valaki menet közben meghal (vízbe esve megfullad vagy
+                elfogy a (HP-ja)testhője és kihűl), akkor a játék véget ér.
+
+
+            </p>
+        </div>
+    </div>
+
+
+
+    <div class="w3-row" id="szabály">
+        <div class="w3-container w3-padding-large" style="magrgin-bottom: 32 px" >
+            <p style="text-align:center;">
+                <img src="workinmaci.png" alt="workinmaci" style="width:300px" >
+                <div class="w3-container w3-white">
+
+            <p><b>Játékszabályok</b></p>
+            <p>
+            <p>
+                -Egy játékot minimum 3 játékosnak kell játszania, ezenbelül mindegy,
+                hogy hány sarkkutató vagy eszkimó van </p>
+            <p>
+                -Minden karakter kezdetben rendelkezik bizonyos számú Hp-val: </p>
+            <p><div style="margin:0px 50px">-<b>sarkkutató:</b> 4 Hp <img src="sarkkutato.png" alt="jegesmaci" style="width:50px" > </p>
+
+            <p>-<b>eszkimó:</b> 5 Hp   <img src="eszkimo.png" alt="jegesmaci" style="width:50px" > </p>  </div>
+
+        <p>
+            -A karaktereknek vannak képességeik, melyet felhasználva segíthetik
+            a játék menetét (R billentyű lenyomásával lehet használni):
+        <p> <div style="margin:0px 50px">  -<b>sarkkutató:</b> meg tudja nézni egy választott tábláról,
+        hogy mennyire stabil</p>
+
+        -<b>eszkimó: </b>iglut tud építeni, ami véd a hóvihartól és
+        a medvetámadástól</div></p>
+    <p>
+        -Minden karakter minden körben 4 egységnyi munkát végezhet, ami lehet:
+    <p><div style="margin:0px 50px">   -szomszéd mezőre lépés</p>
+    <p>   -hó eltakarítás</p>
+    <p>   -tárgy felvétele</p>
+    <p>   -tárgy használata</p>
+    <p>   -képesség használata</div></p>
+<p>
+    -A játék célja, hogy a táblákon elhelyezett 3 pisztolyt kiássák,
+    egy táblára vigyék és egy munka felhasználásával elsüssék.
+    Ekkor a játék véget ért, a játékosok nyertek.</p>
+<p>
+    -A játékot különböző tényezők nehezíthetik:
+<p> <div style="margin:0px 50px">  -a táblák között lehet hóval fedett víz, amibe ha beleesik
+    a karakter akkor egy kör után meghal. Csak akkor élheti túl, ha van rajta búvárruha,
+    vagy egy társa kimenti kötéllel</p>
+
+<p>   -egy tábla lehet stabil, ekkor akárhányan állhatnak rajta,
+    de lehet instabil is, ekkor ha túl sokan állnak rajta, akkor
+    felfordul, és a játékosok vízbe esnek és meghalnak. Ilyenkor vége a játéknak</p>
+
+<p>   -időközönként jöhetnek hófúvások, amik egyrészt a tárgyakat
+    elfedi plusz hóréteggel, másrészt, aki nincs fedett helyen
+    (sátor, iglu), az veszít a Hp-jéből egyet</p>
+
+<p>   -minden körben lép egyet a jegesmedve, és ha egy karakterrel
+    azonos táblán áll, akkor őt felfalja, vége a játéknak. Ha a
+    karakter igluba van, akkor megmenekül a jegesmedve elől</div></p>
+<p>
+    -A játék megnyerését viszont számos tárgy segíti:
+<p><div style="margin:0px 50px"> -<b>élelem: </b>ha van élelem a karakter raktárában, és felhasználja, akkor nő a karakter Hp-ja, hacsak nem maximális </p>
+<p> <img src="etel.png" alt="jegesmaci" style="width:50px" ></p>
+
+
+<p> -<b>búvárruha: </b>ha a karakter vízbe kerül, mert hóval fedett
+    víztáblára lép,  ennek segítségével túlélheti egy kör után is.
+    Ezt a tárgyat nem kell külön felhasználni, automatikusan a
+    karakterre kerül, ha felveszi  </p>
+<p> <img src="buvarruha.png" alt="jegesmaci" style="width:50px" ></p>
+
+<p> -<b>kötél:</b> egy vízbe jutott játékostársat lehet vele kimenteni, szomszédos tábláról </p>
+<p> 	<img src="kotel.png" alt="jegesmaci" style="width:50px" ></p>
+
+<p>-<b>kéz:</b> ez mindig rendelkezésre áll, ezzel egy egységnyi havat
+    lehet eltakarítani	 </p>
+<p> <img src="kez.png" alt="jegesmaci" style="width:50px" ></p>
+
+<p>-<b>lapát: </b>ennek segítségével 2 egységnyi havat lehet ellapátolni</p>
+<p><img src="lapat.png" alt="jegesmaci" style="width:50px" ></p>
+
+<p>-<b>törékeny lapát:</b> hasonló a sima lapáthoz, de ezzel csak 3x2
+    egységnyi havat lehet ellapátolni, tehát 3 használat után
+    eltörik </p>
+<p><img src="torekenylapat.png" alt="jegesmaci" style="width:50px" ></p>
+
+<p>-<b>sátor:</b> az igluhoz hasonlóan megvédi a karaktert a hófúvástól,
+    azonban a medvétől nem, és egy kör után eltűnik  </p>
+<p><img src="sator.png" alt="jegesmaci" style="width:50px" ></p>
+
+<p>-<b>pisztoly: </b> ebből kell hármat összegyűjteni, egy táblára vinni és elsütni,
+    hogy a játékot megnyerhessék a játékosok </p>
+<p> <img src="pisztoly.png" alt="jegesmaci" style="width:50px" ></div></p>
+<p>
+    -Egy tárgyat csak akkor lehet meglátni és felvenni, ha az adott
+    táblán.
+    már nincs hóréteg, előzőleg egy játékos eltakarította
+    (vagy alapból nem volt). A tárgyat felvenni az F billenytűvel lehet.</p>
+<p>
+    -A tárgyak felvétele és felhasználása 1-1 munkának számít. A tárgy
+    felhasználása az E billenytvűvel lehetséges.</p>
+<p>
+    -Amikor egy játékos egy adott táblán áll, az feketével van
+    körülrajzolva, piros szegély az éppen kijelölt tábla és ekkor a zöld szegélyű táblák a szomszédosak.
+    Ahhoz, hogy lépni is tudjon, meg kell nyomni a W billentyűt,
+    majd az immár sárga szegélyű táblákra tud rálépni.</p>
+<p>
+    -A tárgyváltáshoz a Q gombot kell megnyomni, annyiszor amíg ki nem
+    választódik a kívánt tárgy, ezt a piros szegély jelzi. </p>
+
+</p>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- End page content -->
+</div>
+
+<script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
+
+</body>
+</html>
+

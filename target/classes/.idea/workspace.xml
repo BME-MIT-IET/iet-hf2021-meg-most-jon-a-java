@@ -25,8 +25,14 @@
     <list default="true" id="441a7243-e8b0-422e-bb95-7802c218dc22" name="Default Changelist" comment="add mavenpom">
       <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_UseEtel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_UseLapat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_UseSator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_UseTorekenyLapat.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/EtelHasznalat.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/LapatHasznalat.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/SatorHasznalat.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/TorekenyLapatHasznalat.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/VizbeEses.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_FallInWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/iet-hf2021-meg-most-jon-a-java2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iet-hf2021-meg-most-jon-a-java2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021__05__11__11_29__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021__05__11__11_29__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -108,6 +114,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Szoplab-Jegmezo/src" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -121,14 +128,7 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: EtelHasznalat">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="iet-hf2021-meg-most-jon-a-java2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Scenario: EskimoUsedSkill">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -142,13 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: EtelHasznalat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="All Features in: resources" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/EtelHasznalat.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: EtelHasznalat" />
+      <option name="SUGGESTED_NAME" value="All Features in: resources" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -160,13 +160,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: JegesmedveLetezik" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TorekenyLapatHasznalat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/JegesmedveLetezik.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/TorekenyLapatHasznalat.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: JegesmedveLetezik" />
+      <option name="SUGGESTED_NAME" value="Feature: TorekenyLapatHasznalat" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.cucumber.core.cli.*" />
@@ -177,18 +178,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: isDivingSuit" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/BuvarruhaLetezik.feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.cli.Main" />
+    <configuration name="Feature: VizbeEses" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/VizbeEses.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
-      <option name="NAME_FILTER" value="^isDivingSuit$" />
-      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^isDivingSuit$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: isDivingSuit" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: VizbeEses" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.cli.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,14 +196,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: useLapat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: EskimoUsedSkill" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/LapatHasznalat.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/EszkimoKepessegetHasznal.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
-      <option name="NAME_FILTER" value="^useLapat$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^useLapat$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: useLapat" />
+      <option name="NAME_FILTER" value="^EskimoUsedSkill$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^EskimoUsedSkill$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: EskimoUsedSkill" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: useTorekenyLapat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/TorekenyLapatHasznalat.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="iet-hf2021-meg-most-jon-a-java2" />
+      <option name="NAME_FILTER" value="^useTorekenyLapat$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^useTorekenyLapat$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: useTorekenyLapat" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -217,10 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: EtelHasznalat" />
-        <item itemvalue="Cucumber Java.Scenario: useLapat" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Cucumber Java.Scenario: isDivingSuit" />
+        <item itemvalue="Cucumber Java.Scenario: EskimoUsedSkill" />
+        <item itemvalue="Cucumber Java.All Features in: resources" />
+        <item itemvalue="Cucumber Java.Feature: VizbeEses" />
+        <item itemvalue="Cucumber Java.Scenario: useTorekenyLapat" />
+        <item itemvalue="Cucumber Java.Feature: TorekenyLapatHasznalat" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +261,7 @@
       <workItem from="1620729595762" duration="2195000" />
       <workItem from="1620739957208" duration="15000" />
       <workItem from="1620739977617" duration="419000" />
-      <workItem from="1620740408483" duration="5959000" />
+      <workItem from="1620740408483" duration="8510000" />
     </task>
     <task id="LOCAL-00001" summary="configure">
       <created>1620723283555</created>

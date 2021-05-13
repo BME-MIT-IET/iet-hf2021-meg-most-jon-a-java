@@ -128,7 +128,7 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.All Features in: resources">
+  <component name="RunManager" selected="Cucumber Java.Scenario: PolarBearEatsSomeone">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -160,13 +160,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TorekenyLapatHasznalat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: EskimoUsedSkill" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/TorekenyLapatHasznalat.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/EszkimoKepessegetHasznal.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TorekenyLapatHasznalat" />
+      <option name="NAME_FILTER" value="^EskimoUsedSkill$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^EskimoUsedSkill$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: EskimoUsedSkill" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -178,13 +179,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: VizbeEses" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: PlayersEnergyShouldDecreaseAfterMooving" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/VizbeEses.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/JatokosEnergiajaCsokkenMozgasUtan.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: VizbeEses" />
+      <option name="NAME_FILTER" value="^PlayersEnergyShouldDecreaseAfterMooving$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^PlayersEnergyShouldDecreaseAfterMooving$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: PlayersEnergyShouldDecreaseAfterMooving" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -196,14 +198,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: useSator" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: PolarBearEatsSomeone" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/SatorHasznalat.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/JegesmedveMegeszikValakit.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
-      <option name="NAME_FILTER" value="^useSator$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^useSator$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: useSator" />
+      <option name="NAME_FILTER" value="^PolarBearEatsSomeone$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^PolarBearEatsSomeone$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: PolarBearEatsSomeone" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -215,14 +217,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: useTorekenyLapat" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: UnstableTableFlips" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/TorekenyLapatHasznalat.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/InstabilTablaAtfordul.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
-      <option name="NAME_FILTER" value="^useTorekenyLapat$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^useTorekenyLapat$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: useTorekenyLapat" />
+      <option name="NAME_FILTER" value="^UnstableTableFlips$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^UnstableTableFlips$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: UnstableTableFlips" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -236,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: PolarBearEatsSomeone" />
+        <item itemvalue="Cucumber Java.Scenario: PlayersEnergyShouldDecreaseAfterMooving" />
+        <item itemvalue="Cucumber Java.Scenario: EskimoUsedSkill" />
+        <item itemvalue="Cucumber Java.Scenario: UnstableTableFlips" />
         <item itemvalue="Cucumber Java.All Features in: resources" />
-        <item itemvalue="Cucumber Java.Feature: VizbeEses" />
-        <item itemvalue="Cucumber Java.Scenario: useTorekenyLapat" />
-        <item itemvalue="Cucumber Java.Feature: TorekenyLapatHasznalat" />
-        <item itemvalue="Cucumber Java.Scenario: useSator" />
       </list>
     </recent_temporary>
   </component>
