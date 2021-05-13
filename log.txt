@@ -22752,3 +22752,16 @@ Most a <class Tabla> Osztaly <elfogad> fuggvenye fut!
 Most a <class Jegesmedve> Osztaly <cselekszik> fuggvenye fut! 
 Most a <class Tabla> Osztaly <szomszedLeker> fuggvenye fut! 
 Most a <class Sarkkutato> Osztaly <hpNullazas> függvenye fut! 
+Most a <class Eszkimo> Osztaly <getMaxHp> fuggvenye fut! 
+Most a <class Tabla> Osztaly <elfogad> fuggvenye fut! 
+Most a <class Eszkimo> Osztaly <felvesz> függvenye fut! 
+Most a <class Tabla> Osztaly <eltavolit> fuggvenye fut! 
+Most a <class Eszkimo> Osztaly <getMaxHp> fuggvenye fut! 
+Most a <class Eszkimo> Osztaly <getMaxHp> fuggvenye fut! 
+Most a <class Tabla> Osztaly <elfogad> fuggvenye fut! 
+Most a <class Eszkimo> Osztaly <felvesz> függvenye fut! 
+Most a <class Tabla> Osztaly <eltavolit> fuggvenye fut! 
+Most a <class Eszkimo> Osztaly <getMaxHp> fuggvenye fut! 
+Most a <class Tabla> Osztaly <elfogad> fuggvenye fut! 
+Most a <class Eszkimo> Osztaly <felvesz> függvenye fut! 
+Most a <class Tabla> Osztaly <eltavolit> fuggvenye fut! 
