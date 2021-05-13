@@ -22765,3 +22765,15 @@ Most a <class Eszkimo> Osztaly <getMaxHp> fuggvenye fut!
 Most a <class Tabla> Osztaly <elfogad> fuggvenye fut! 
 Most a <class Eszkimo> Osztaly <felvesz> függvenye fut! 
 Most a <class Tabla> Osztaly <eltavolit> fuggvenye fut! 
+Most a <class Sarkkutato> Osztaly <getMaxHp> függvenye fut! 
+Most a <class Tabla> Osztaly <elfogad> fuggvenye fut! 
+Most a <class Sarkkutato> Osztaly <felvesz> függvenye fut! 
+Most a <class Tabla> Osztaly <eltavolit> fuggvenye fut! 
+Most a <class Sarkkutato> Osztaly <getMaxHp> függvenye fut! 
+Most a <class Tabla> Osztaly <elfogad> fuggvenye fut! 
+Most a <class Sarkkutato> Osztaly <felvesz> függvenye fut! 
+Most a <class Tabla> Osztaly <eltavolit> fuggvenye fut! 
+Most a <class Sarkkutato> Osztaly <getMaxHp> függvenye fut! 
+Most a <class Tabla> Osztaly <elfogad> fuggvenye fut! 
+Most a <class Sarkkutato> Osztaly <felvesz> függvenye fut! 
+Most a <class Tabla> Osztaly <eltavolit> fuggvenye fut! 

@@ -23,19 +23,439 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="441a7243-e8b0-422e-bb95-7802c218dc22" name="Default Changelist" comment="add mavenpom">
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_EszkimoFelveszBuvarruha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_EszkimoFelveszKotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_EszkimoFelveszLapat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_IsLapat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/BuvarRuhaFelveszEszkimo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/KotelFelveszEszkimo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/LapatFelveszEszkimo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/LapatLetezik.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/iet-hf2021-meg-most-jon-a-java2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iet-hf2021-meg-most-jon-a-java2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_IsTherePisztolyAlkatresz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_IsThereSator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_SarkkutatoFelveszEtel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_SarkkutatoFelveszPisztolyAlkatresz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/Test_SarkkutatoFelveszTorekenyLapat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/EtelFelveszSarkkutato.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/PisztolyAlkatreszFelveszSarkkutato.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/PisztolyAlkatreszLetezik.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/SatorLetezik.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/TorekenyLapatFelveszSarkkutato.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021__05__11__11_29__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021__05__11__11_29__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/iet-hf2021-meg-most-jon-a-java2/META-INF/iet-hf2021-meg-most-jon-a-java2.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.github/workflows/maven.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/iet-hf2021-meg-most-jon-a-java2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_create_meta_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_cucumber_core_6_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_cucumber_expressions_10_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_6_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_messages_6_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_cucumber_java_6_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_cucumber_plugin_6_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_datatable_3_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_docstring_6_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_html_formatter_9_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_messages_13_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__io_cucumber_tag_expressions_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021__05__11__11_29_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021__05__11__11_29__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Buvarruha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Buvarruha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dolog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dolog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Epitmeny.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Epitmeny.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EskimoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EskimoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Eszkimo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Eszkimo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Etel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Etel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Iglu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Iglu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InstabilTabla.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InstabilTabla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Jatek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Jatek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JatekVezerlo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JatekVezerlo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Jegesmedve.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Jegesmedve.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Karakter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Karakter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/KarakterView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/KarakterView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Kotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Kotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Lapat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lapat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Mezo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mezo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Npc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Npc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PisztolyAlkatresz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PisztolyAlkatresz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sarkkutato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sarkkutato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/Szoplab-Jegmezo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/BuvarruhaLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/EszkimoLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/EtelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/IgluLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/JegesmedveLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/KotelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/BuvarruhaLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/EszkimoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/EszkimoLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/EtelHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/EtelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/IgluLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/InstabilTablaAtfordul.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/JatokosEnergiajaCsokkenMozgasUtan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/JegesmedveLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/JegesmedveMegeszikValakit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/KotelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/LapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/SarkkutatoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/SatorHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/TorekenyLapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Szoplab-Jegmezo/src/test/resources/VizbeEses.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tabla.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tabla.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TablaButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TablaButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TablaView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TablaView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_BearEatsResearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_BearEatsResearcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_EskimoUsedSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_EskimoUsedSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_EszkimoFelveszBuvarruha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_EszkimoFelveszBuvarruha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_EszkimoFelveszKotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_EszkimoFelveszKotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_EszkimoFelveszLapat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_EszkimoFelveszLapat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_FallInWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_IsLapat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_IsLapat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_IsThereDivingSuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_IsThereDivingSuit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_IsThereFood.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_IsThereFood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_IsThereIgloo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_IsThereIgloo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_IsTherePolarBear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_IsTherePolarBear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_IsThereRope.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_IsThereRope.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_PlayersEnergyShouldDecreaseAfterMooving.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_PlayersEnergyShouldDecreaseAfterMooving.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_ResearcherUsedSkill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_ResearcherUsedSkill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_UnstableTableFlips.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_UnstableTableFlips.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_UseEtel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_UseEtel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_UseLapat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_UseLapat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_UseSator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_UseSator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test_UseTorekenyLapat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test_UseTorekenyLapat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tesztek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tesztek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TorekenyLapat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TorekenyLapat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View$elem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View$elem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Viz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Viz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classes/production/iet-hf2021-meg-most-jon-a-java2/META-INF/iet-hf2021-meg-most-jon-a-java2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/compare.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/defaultGame.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/errorLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/betoltokep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/betoltokep2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/buvarruha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/csukottsator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/eszkimo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/etel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/horeteg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/horeteg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/iglu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/ikon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/jatek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/jeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/jegesmedve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/jegmezo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/kez.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/kotel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/lapat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/pisztoly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/sadmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/sarkkutato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/sator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/torekenylapat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/torottmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/viz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/workinmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/osszesTeszt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.github/workflows/maven.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/BuvarruhaLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/EszkimoLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/EtelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/IgluLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/JegesmedveLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/KotelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/BuvarruhaLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EszkimoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EszkimoLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EtelHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EtelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/IgluLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/InstabilTablaAtfordul.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JatokosEnergiajaCsokkenMozgasUtan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JegesmedveLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JegesmedveMegeszikValakit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/KotelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/LapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/SarkkutatoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/SatorHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/TorekenyLapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/VizbeEses.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/classes/production/iet-hf2021-meg-most-jon-a-java2/META-INF/iet-hf2021-meg-most-jon-a-java2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/compare.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/defaultGame.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/errorLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/betoltokep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/betoltokep2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/buvarruha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/csukottsator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/eszkimo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/etel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/horeteg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/horeteg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/iglu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/ikon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/jatek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/jeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/jegesmedve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/jegmezo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/kez.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/kotel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/lapat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/pisztoly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/sadmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/sarkkutato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/sator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/torekenylapat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/torottmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/viz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/graphics/workinmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/osszesTeszt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.github/workflows/maven.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/BuvarruhaLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/EszkimoLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/EtelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/IgluLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/JegesmedveLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/KotelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/BuvarruhaLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EszkimoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EszkimoLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EtelHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EtelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/IgluLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/InstabilTablaAtfordul.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JatokosEnergiajaCsokkenMozgasUtan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JegesmedveLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JegesmedveMegeszikValakit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/KotelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/LapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/SarkkutatoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/SatorHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/TorekenyLapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/VizbeEses.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/classes/production/iet-hf2021-meg-most-jon-a-java2/META-INF/iet-hf2021-meg-most-jon-a-java2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/compare.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/defaultGame.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/errorLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/betoltokep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/betoltokep2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/buvarruha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/csukottsator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/eszkimo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/etel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/horeteg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/horeteg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/iglu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/ikon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/jatek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/jeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/jegesmedve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/jegmezo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/kez.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/kotel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/lapat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/pisztoly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/sadmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/sarkkutato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/sator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/torekenylapat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/torottmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/viz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/graphics/workinmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/osszesTeszt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/.github/workflows/maven.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/BuvarruhaLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/EszkimoLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/EtelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/IgluLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/JegesmedveLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/KotelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/BuvarruhaLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EszkimoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EszkimoLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EtelHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EtelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/IgluLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/InstabilTablaAtfordul.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JatokosEnergiajaCsokkenMozgasUtan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JegesmedveLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JegesmedveMegeszikValakit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/KotelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/LapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/SarkkutatoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/SatorHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/TorekenyLapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/VizbeEses.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/classes/production/iet-hf2021-meg-most-jon-a-java2/META-INF/iet-hf2021-meg-most-jon-a-java2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/compare.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/defaultGame.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/errorLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/betoltokep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/betoltokep2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/buvarruha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/csukottsator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/eszkimo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/etel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/horeteg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/horeteg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/iglu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/ikon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/jatek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/jeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/jegesmedve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/jegmezo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/kez.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/kotel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/lapat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/pisztoly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/sadmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/sarkkutato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/sator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/torekenylapat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/torottmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/viz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/graphics/workinmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/osszesTeszt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/.github/workflows/maven.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/BuvarruhaLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/EszkimoLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/EtelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/IgluLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/JegesmedveLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/out/production/Szoplab-Jegmezo/test/resources/KotelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/BuvarruhaLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EszkimoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EszkimoLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EtelHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/EtelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/IgluLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/InstabilTablaAtfordul.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JatokosEnergiajaCsokkenMozgasUtan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JegesmedveLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/JegesmedveMegeszikValakit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/KotelLetezik.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/LapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/SarkkutatoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/SatorHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/TorekenyLapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/Szoplab-Jegmezo/src/test/resources/VizbeEses.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/classes/production/iet-hf2021-meg-most-jon-a-java2/META-INF/iet-hf2021-meg-most-jon-a-java2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/compare.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/defaultGame.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/errorLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/betoltokep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/betoltokep2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/buvarruha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/csukottsator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/eszkimo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/etel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/horeteg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/horeteg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/iglu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/ikon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/jatek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/jeg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/jegesmedve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/jegmezo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/kez.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/kotel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/lapat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/pisztoly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/sadmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/sarkkutato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/sator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/torekenylapat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/torottmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/viz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/graphics/workinmaci.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/osszesTeszt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/test/resources/EszkimoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/test/resources/EtelHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/test/resources/InstabilTablaAtfordul.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/test/resources/JatokosEnergiajaCsokkenMozgasUtan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/test/resources/JegesmedveMegeszikValakit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/test/resources/LapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/test/resources/SarkkutatoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/test/resources/SatorHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/test/resources/TorekenyLapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/test/resources/VizbeEses.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/test/resources/EszkimoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/test/resources/EtelHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/test/resources/InstabilTablaAtfordul.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/test/resources/JatokosEnergiajaCsokkenMozgasUtan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/test/resources/JegesmedveMegeszikValakit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/test/resources/LapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/test/resources/SarkkutatoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/test/resources/SatorHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/test/resources/TorekenyLapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/test/resources/VizbeEses.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/test/resources/EszkimoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/test/resources/EtelHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/test/resources/InstabilTablaAtfordul.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/test/resources/JatokosEnergiajaCsokkenMozgasUtan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/test/resources/JegesmedveMegeszikValakit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/test/resources/LapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/test/resources/SarkkutatoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/test/resources/SatorHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/test/resources/TorekenyLapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/test/resources/VizbeEses.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/test/resources/EszkimoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/test/resources/EtelHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/test/resources/InstabilTablaAtfordul.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/test/resources/JatokosEnergiajaCsokkenMozgasUtan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/test/resources/JegesmedveMegeszikValakit.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/test/resources/LapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/test/resources/SarkkutatoKepessegetHasznal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/test/resources/SatorHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/test/resources/TorekenyLapatHasznalat.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/test/resources/VizbeEses.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,19 +504,19 @@
       <recent name="test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Adat\BME\6_felev\Integrációs és ellenőrzési technikák (IET)\Hazi\2.hazi\Szoplab-Jegmezo\src\test\resources" />
       <recent name="D:\Mate\Desktop\bme\s6\IET\hf2\iet-hf2021-meg-most-jon-a-java2\Szoplab-Jegmezo\src\test\resources" />
       <recent name="E:\Suli\Egyetem__BME\6_Integracios_es_ellenorzesi_tech\Házi2\iet-hf2021-meg-most-jon-a-java\Szoplab-Jegmezo\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: isLapat">
-    <configuration name="Scenario: PolarBearEatsSomeone" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: PisztolyAlkatreszFelveszSarkkutato">
+    <configuration name="Feature: IgluLetezik" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/JegesmedveMegeszikValakit.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/IgluLetezik.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
-      <option name="NAME_FILTER" value="^PolarBearEatsSomeone$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^PolarBearEatsSomeone$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: PolarBearEatsSomeone" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: IgluLetezik" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -108,14 +528,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: felveszBuvarruhaEszkimo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: PisztolyAlkatreszFelveszSarkkutato" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/BuvarRuhaFelveszEszkimo.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/PisztolyAlkatreszFelveszSarkkutato.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
-      <option name="NAME_FILTER" value="^felveszBuvarruhaEszkimo$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^felveszBuvarruhaEszkimo$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: felveszBuvarruhaEszkimo" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: PisztolyAlkatreszFelveszSarkkutato" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -127,14 +546,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: felveszKotelEszkimo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: PisztolyAlkatreszLetezik" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/KotelFelveszEszkimo.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/PisztolyAlkatreszLetezik.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
-      <option name="NAME_FILTER" value="^felveszKotelEszkimo$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^felveszKotelEszkimo$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: felveszKotelEszkimo" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: PisztolyAlkatreszLetezik" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -146,14 +564,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: felveszLapatEszkimo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: SatorLetezik" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/LapatFelveszEszkimo.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Szoplab-Jegmezo/src/test/resources/SatorLetezik.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="iet-hf2021-meg-most-jon-a-java2" />
-      <option name="NAME_FILTER" value="^felveszLapatEszkimo$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^felveszLapatEszkimo$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: felveszLapatEszkimo" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: SatorLetezik" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -186,11 +603,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: PisztolyAlkatreszFelveszSarkkutato" />
+        <item itemvalue="Cucumber Java.Feature: PisztolyAlkatreszLetezik" />
+        <item itemvalue="Cucumber Java.Feature: SatorLetezik" />
+        <item itemvalue="Cucumber Java.Feature: IgluLetezik" />
         <item itemvalue="Cucumber Java.Scenario: isLapat" />
-        <item itemvalue="Cucumber Java.Scenario: felveszLapatEszkimo" />
-        <item itemvalue="Cucumber Java.Scenario: felveszKotelEszkimo" />
-        <item itemvalue="Cucumber Java.Scenario: felveszBuvarruhaEszkimo" />
-        <item itemvalue="Cucumber Java.Scenario: PolarBearEatsSomeone" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +630,7 @@
       <workItem from="1620739977617" duration="419000" />
       <workItem from="1620740408483" duration="8510000" />
       <workItem from="1620896283883" duration="1373000" />
+      <workItem from="1620898223079" duration="2322000" />
     </task>
     <task id="LOCAL-00001" summary="configure">
       <created>1620723283555</created>
@@ -261,33 +679,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="add mavenpom" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1620898329931">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1620898329931" />
     <state x="743" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1620897399930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="385" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620897399930" />
-    <state width="1877" height="270" key="GridCell.Tab.0.bottom" timestamp="1620897669001">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="47" key="GridCell.Tab.0.bottom" timestamp="1620900602939">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="47" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1620900602939" />
     <state width="1877" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620897669001" />
-    <state width="1877" height="270" key="GridCell.Tab.0.center" timestamp="1620897669001">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="47" key="GridCell.Tab.0.center" timestamp="1620900602939">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="47" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1620900602939" />
     <state width="1877" height="270" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620897669001" />
-    <state width="1877" height="270" key="GridCell.Tab.0.left" timestamp="1620897669000">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="47" key="GridCell.Tab.0.left" timestamp="1620900602939">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="47" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1620900602939" />
     <state width="1877" height="270" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620897669000" />
-    <state width="1877" height="270" key="GridCell.Tab.0.right" timestamp="1620897669001">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="47" key="GridCell.Tab.0.right" timestamp="1620900602939">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="47" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1620900602939" />
     <state width="1877" height="270" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620897669001" />
+    <state width="1237" height="47" key="GridCell.Tab.1.bottom" timestamp="1620900602702">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="47" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1620900602702" />
+    <state width="1237" height="47" key="GridCell.Tab.1.center" timestamp="1620900602701">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="47" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1620900602701" />
+    <state width="1237" height="47" key="GridCell.Tab.1.left" timestamp="1620900602701">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="47" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1620900602701" />
+    <state width="1237" height="47" key="GridCell.Tab.1.right" timestamp="1620900602702">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="47" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1620900602702" />
     <state x="-967" y="0" width="974" height="1047" key="dock-window-1" timestamp="1620897124874">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-967" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620897124874" />
-    <state x="712" y="441" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1620897395540">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="475" y="292" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1620900716846">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="475" y="292" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1280.689@0.0.1280.689" timestamp="1620900716846" />
     <state x="712" y="441" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620897395540" />
   </component>
 </project>

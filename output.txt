@@ -134,3 +134,6 @@ npc_lepett_0_evett
 karakter_dologfelvetel_sikeres
 karakter_dologfelvetel_sikeres
 karakter_dologfelvetel_sikeres
+karakter_dologfelvetel_sikeres
+karakter_dologfelvetel_sikeres
+karakter_dologfelvetel_sikeres
